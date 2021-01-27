@@ -1,0 +1,9 @@
+// We can also override strapis API to do this...
+// Whats the better option?
+
+
+/**
+ * Display the number with 2 digits
+ * @param {string | number} number 
+ */
+export const twoDecimals = (number) => parseFloat(number).toFixed(2)
